@@ -1,0 +1,25 @@
+#SimpleCard {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 18px 20px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+#Image {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+#Title {
+    font-size: 32px; 
+    margin: 0;
+}
+
+#Description {
+    font-size: 24px;
+}
+
+
