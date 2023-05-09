@@ -1,6 +1,6 @@
-import Image from "./Image";
-import Title from "./Title";
-import Description from "./Description";
+import Image from "../Image/Image";
+import Title from "../Title/Title";
+import Description from "../Description/Description";
 
 const SimpleCard = ({ item }) => {
     const { imgSrc, alt, title, desc } = item;

@@ -1,4 +1,4 @@
-import SimpleCard from "../../components/SimpleCard";
+import SimpleCard from "../../components/SimpleCard/SimpleCard";
 import "./SimpleCardApp.css"
 
 const SimpleCardApp = () => {
@@ -11,7 +11,6 @@ const SimpleCardApp = () => {
 
     return (
         <div id="SimpleCardApp">
-            <h1>Simple Card</h1>
             <SimpleCard item={item} />
         </div>
     );

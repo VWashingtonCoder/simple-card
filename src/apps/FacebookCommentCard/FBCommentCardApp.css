@@ -1,0 +1,28 @@
+#FBCommentCard {
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 18px 20px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+#FBCommentCard #Title {
+  color: darkblue;
+}
+
+.btn-time {
+  font-size: 23px;
+  margin-left: 0;
+}
+
+.seperator {
+  font-size: 25px;
+  color: blue;
+}
+
+.time {
+    margin-left: 10px;
+    color: darkgoldenrod;
+}
